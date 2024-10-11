@@ -1,3 +1,4 @@
 export default function Home() {
-  return <div>{process.env.MY_VAR}</div>;
+  const myVar = process.env.MY_VAR;
+  return <div>{myVar}</div>;
 }
